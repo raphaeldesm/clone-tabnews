@@ -188,6 +188,7 @@ async function hashPasswordInObject(userInputValues) {
 
 const user = {
   create,
+  findOneByUsername,
   findOneByEmail,
   update,
 };
